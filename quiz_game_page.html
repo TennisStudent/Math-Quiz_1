@@ -19,7 +19,7 @@
         <h4 id="player2_name"></h4> <span id="player2_score"></span>        
         <div class="container">
             <center>
-                <h2 style="color: cornflowerblue;">The Math Quiz Game!</h2>
+                <h2 style="color: cornflowerblue;font-family:monospace">The Math Quiz Game!</h2>
                 <h3 id="player_question"></h3>
                 <h3 id="player_answer"></h3>
                 <div id="output" class="col-lg-6"></div>
@@ -33,6 +33,9 @@
                 <input type="number" id="number2" class="form-control" placeholder="Number 2">
                 <br>
                 <button onclick="send()" class="btn btn-info" style="width: 30%;">Send</button>
+                <br>
+                <br>
+                <marquee width="60%" direction="left" height="100px" style="color: rgb(106, 156, 250)">Player 1 puts in both numbers and player two needs to find out what those two numbers by an operation equals too, if he gets it right he gets a point, otherwise he gets nothing. Same for player 2 to player 1.</marquee>
             </center>
         </div>
         <script src="quiz_game_page.js"></script>

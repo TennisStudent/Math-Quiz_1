@@ -5,7 +5,7 @@ body
 
 	.login_div1 , .login_div2
 	{
-		background: lightcyan;
+		background:rgb(145, 255, 209);
 		padding: 10px;
 		float: none;
 		border-radius: 15px;
@@ -36,10 +36,15 @@ text-align: left;
 }
 hr
 {
-	border: 2px, rgb(36, 147, 238);
+	border: 2px, rgb(36, 90, 238);
 }
 #title
 {
-	color: rgb(89, 203, 255);
+	color: rgb(48, 113, 197);
 	font-family: "monospace";
+}
+img
+{
+	width: 200px;
+	height: 110px;
 }
